@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: x-large;
+}
+
+body{
+	background: #0B2545;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: auto;
+	margin: 50px;
+	background: #0B2545;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	float: right;
+}
+
+.menu > li > a{
+	padding: 15px 20px;
+	color: #ffffff;
+	font-family: 'Open sans';
+	text-decoration: none;
+	
+}
+
+.menu li a:hover{
+	color: #00ccff;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #0800ff;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.Logo img{
+	margin-bottom: 50px;
+   width: 300px;
+   height: 45px;
+   float: left;
+   padding:  1px;
+}
+.manejo{
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+
+}
+.manejo1{
+	height: 70px;
+	width: 100px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
